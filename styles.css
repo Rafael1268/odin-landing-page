@@ -80,3 +80,35 @@ p {
     border-radius: 8px;
     box-shadow: 0 0 25px;
 }
+
+.section2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.section2 img {
+    width: 150px;
+    border-radius: 10px;
+}
+
+.section2Bottom {
+    display: flex;
+    gap: 30px;
+    padding: 0 20%;
+    margin-top: 50px;
+}
+
+.section2Bottom p {
+    margin-top: 10px;
+    text-align: center;
+    color: #1F2937;
+    font-size: 16px;
+}
+
+.person1, .person2, .person3, .person4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
