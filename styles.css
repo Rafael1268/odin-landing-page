@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,300&display=swap');
+
+* {
+    font-family: Roboto;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: white;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+h3 {
+    font-size: 24px;
+    color: white;
+}
+
+a,
+p {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+.navbar{
+    display: flex;
+    background-color: #1F2937;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 15%;
+}
+
+.navbar ol {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.navbar li {
+    padding: 0 15px;
+}
+
+.section1 {
+    display: flex;
+    justify-content: space-around;
+    padding:75px 15%;
+    gap: 50px;
+    background-color: #1F2937;
+}
+
+.section1Left h1 {
+    margin-bottom: 10px;
+}
+
+.section1Left button {
+    margin-top: 15px;
+    padding: 9px 25px;
+    background-color: #3882F6;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+}
+
+.section1Left button:hover {
+    background-color: #2a5fb5;
+}
+
+.section1 img {
+    width: 400px;
+    border-radius: 8px;
+    box-shadow: 0 0 25px;
+}
